@@ -13,7 +13,7 @@ import torch.utils.data as data
 from torchvision.datasets.utils import download_url, check_integrity
 
 
-class MiraBest(data.Dataset):
+class MiraBest_full(data.Dataset):
     """
 
     Inspired by `HTRU1 <https://as595.github.io/HTRU1/>`_ Dataset.
@@ -33,7 +33,7 @@ class MiraBest(data.Dataset):
 
     """
 
-    base_folder = 'MiraBest_dataset'
+    base_folder = 'MiraBest_full_dataset'
     url = "http://www.jb.man.ac.uk/research/MiraBest/full_dataset/MiraBest_full_batches.tar.gz" 
     filename = "MiraBest_full_batches.tar.gz"
     tgz_md5 = '04776f392e2b5ca27a9a46bec7bd839d'
