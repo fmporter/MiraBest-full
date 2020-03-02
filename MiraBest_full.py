@@ -36,15 +36,15 @@ class MiraBest_full(data.Dataset):
     base_folder = 'MiraBest_full_dataset'
     url = "http://www.jb.man.ac.uk/research/MiraBest/full_dataset/MiraBest_full_batches.tar.gz" 
     filename = "MiraBest_full_batches.tar.gz"
-    tgz_md5 = '04776f392e2b5ca27a9a46bec7bd839d'
+    tgz_md5 = '965b5daa83b9d8622bb407d718eecb51'
     train_list = [
-                  ['data_batch_1', 'bd0b8cbd269684b88111325cd554ca6d'],
-                  ['data_batch_2', '959023f67628d11e781dc98f126b48e8'],
-                  ['data_batch_3', '7738b688107da4fb33f5fd1baa27e7cd'],
-                  ['data_batch_4', '002b2557ac6713372dc27b01f764cb4d'],
-                  ['data_batch_5', 'dac685587bae1167de79dbd4d0eaafea'],
-                  ['data_batch_6', '47757e361c46639c1740e80a2e2de20c'],
-                  ['data_batch_7', '3502f7f99b4267469fef4999210d5d2d'],
+                  ['data_batch_1', 'b15ae155301f316fc0b51af16b3c540d'],
+                  ['data_batch_2', '0bf52cc1b47da591ed64127bab6df49e'],
+                  ['data_batch_3', '98908045de6695c7b586d0bd90d78893'],
+                  ['data_batch_4', 'ec9b9b77dc019710faf1ad23f1a58a60'],
+                  ['data_batch_5', '5190632a50830e5ec30de2973cc6b2e1'],
+                  ['data_batch_6', 'b7113d89ddd33dd179bf64cb578be78e'],
+                  ['data_batch_7', '626c866b7610bfd08ac94ca3a17d02a1'],
                   ]
 
     test_list = [
@@ -55,6 +55,7 @@ class MiraBest_full(data.Dataset):
                 'key': 'label_names',
                 'md5': 'e1b5450577209e583bc43fbf8e851965',
                 }
+
 
     def __init__(self, root, train=True,
                  transform=None, target_transform=None,
