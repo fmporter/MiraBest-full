@@ -33,7 +33,7 @@ class MiraBest_full(data.Dataset):
 
     """
 
-    base_folder = 'MiraBest_full_dataset'
+    base_folder = 'batches'
     url = "http://www.jb.man.ac.uk/research/MiraBest/full_dataset/MiraBest_full_batches.tar.gz" 
     filename = "MiraBest_full_batches.tar.gz"
     tgz_md5 = '965b5daa83b9d8622bb407d718eecb51'
